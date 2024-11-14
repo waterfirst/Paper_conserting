@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            border-bottom: 3px solid #2196F3;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .highlight-box {
+            background: linear-gradient(to right, #e3f2fd, #f5f5f5);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+        .price-table th, .price-table td {
+            padding: 12px;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        .price-table th {
+            background: #2196F3;
+            color: white;
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .expertise-list {
+            list-style: none;
+            padding: 0;
+        }
+        .expertise-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .expertise-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>논문 컨설팅</h1>
+        <p>지역사회건강조사 데이터 분석 및 코로나19 연구관련</p>
+    </div>
+
+    <div class="highlight-box">
+        <h2>컨설턴트 프로필</h2>
+        <ul class="expertise-list">
+            <li>고려대학교 응용물리 박사 </li>
+            <li>20년+ 산업 데이터 분석 경력</li>
+            <li>R/Python 기반 통계분석 전문가</li>
+            <li>서강대/동국대 데이터 분석 특강 강사</li>
+            <li>데이터분석기사 자격증 보유(다양한 데이터 분석 및 시각화)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>논문 가이드 절차</h2>
+        <ul class="expertise-list">
+            <li>주제 선정을 위한 논의</li>
+            <li>실험 계획 수립</li>
+            <li>데이터 수집 및 전처리 (시뮬레이션 포함)</li>
+            <li>실험 결과 정리 및 다양한 시각화</li>
+            <li>실험결과 토론</li>
+            <li>논문 작성 및 교정</li>
+            <li>R, Python 활용, Claude AI 사용 </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>논문 컨설팅 프로세스</h2>
+        <table class="price-table">
+            <tr>
+                <th>단계</th>
+                <th>내용</th>
+                <th>시간</th>
+            </tr>
+            <tr>
+                <td>1단계</td>
+                <td>고객 면담을 통해 연구 주제 설정 및 논문 계획서 작성</td>
+                <td>2시간</td>
+            </tr>
+            <tr>
+                <td>2단계</td>
+                <td>데이터 수집, 전처리 및 기초통계 분석</td>
+                <td>2시간</td>
+            </tr>
+            <tr>
+                <td>3단계</td>
+                <td>데이터 시각화 및 결과 해석</td>
+                <td>2시간</td>
+            </tr>
+            <tr>
+                <td>4단계</td>
+                <td>논문 구조화 및 작성 지도</td>
+                <td>2시간</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>컨설팅 비용</h2>
+        <ul class="expertise-list">
+            <li>기본 패키지 (8시간): 320,000원</li>
+            <li>추가 세션: 시간당 30,000원</li>
+            <li>데이터 분석 코드 제공</li>
+            <li>분석 결과 시각화 자료 제공</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>※ 모든 컨설팅은 연구윤리를 준수하며 진행됩니다.</p>
+        <p>※ 화상/대면 미팅 모두 가능합니다. (대면 미팅 선호)</p>
+        <p>※ 첫 미팅 후 맞춤형 계획 수립이 가능합니다.</p>
+        <p>연락처: 010-4229-7688 | 이메일: nakcho.choi@gmail.com</p>
+    </div>
+</body>
+</html>
